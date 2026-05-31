@@ -1,0 +1,52 @@
+@import url(https://font.emtech.cc/css/GlowSansJPCom);
+
+:root {
+  --bg: #f0ede8;
+  --border: #e5e2dd;
+  --text: #2c2c2c;
+  --text-sub: #7a7a7a;
+  --text-light: #aaaaaa;
+  --open: #4caf50;
+  --closing: #ff9800;
+  --closed: #c0bcb6;
+  --r-card: 14px;
+  --shadow: 0 2px 12px rgba(0,0,0,0.07);
+  --shadow-lg: 0 6px 24px rgba(0,0,0,0.13);
+  --font: 'GlowSansJPCom', 'Noto Sans TC', sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  letter-spacing: 1.5px;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.dot-open {
+  background: var(--open);
+}
+
+.dot-closing {
+  background: var(--closing);
+}
+
+.dot-closed {
+  background: var(--closed);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

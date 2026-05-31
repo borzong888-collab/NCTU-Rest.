@@ -1,0 +1,44 @@
+{
+  "header": {
+    "title": "NCTU REST.",
+    "subtitle": "NCTU Student Restaurants",
+    "openOnly": "Opening only"
+  },
+  "legend": {
+    "open": "Open",
+    "closing": "Last half hour",
+    "closed": "Closed"
+  },
+  "status": {
+    "open": "Open",
+    "closing": "Last half hour",
+    "closed": "Closed"
+  },
+
+  "note": {
+    "n": "Actual operation and food supply are subject to conditions of the restaurant."
+  },
+
+  "categories": {
+    "首頁": "Home",
+    "第二餐廳": "Rest. 2",
+    "女二舍餐廳": "Girl's Dorm 2",
+    "研三舍餐廳": "Grad. Dorm 3",
+    "其他": "Others"
+  },
+  "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+  "page": {
+    "hours": "Hours",
+    "days": "Days",
+    "payment": "Payment",
+    "menu": "Menu",
+    "back": "Back",
+    "notFound": "Restaurant not found",
+    "backHome": "Back to Home",
+    "price": "NT$"
+  },
+  "empty": {
+    "title": "No restaurants are currently open",
+    "subtitle": "Please try again later"
+  }
+}

@@ -1,0 +1,3 @@
+/* App.css — App 骨架佈局 */
+.app          { display: flex; flex-direction: column; min-height: 100vh; }
+.main-content { margin-top: var(--header-h); flex: 1; }

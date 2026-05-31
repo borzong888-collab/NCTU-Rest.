@@ -1,0 +1,44 @@
+{
+  "header": {
+    "title": "交 大 學 餐",
+    "subtitle": "NCTU Student Restaurants",
+    "openOnly": "營業中店家"
+  },
+  "legend": {
+    "open": "營業中",
+    "closing": "將打烊",
+    "closed": "休息中"
+  },
+  "status": {
+    "open": "營業中",
+    "closing": "即將打烊",
+    "closed": "休息中"
+  },
+
+  "note": {
+    "n": "實際營運與餐點供應狀況以現場店家為準"
+  },
+
+  "categories": {
+    "首頁": "首頁",
+    "第二餐廳": "第二餐廳",
+    "女二舍餐廳": "女二舍餐廳",
+    "研三舍餐廳": "研三舍餐廳",
+    "其他": "其他"
+  },
+  "days": ["日", "一", "二", "三", "四", "五", "六"],
+  "page": {
+    "hours": "時間",
+    "days": "星期",
+    "payment": "支付",
+    "menu": "菜單 Menu",
+    "back": "返回",
+    "notFound": "找不到此餐廳",
+    "backHome": "返回首頁",
+    "price": "NT$"
+  },
+  "empty": {
+    "title": "目前沒有營業中的店家",
+    "subtitle": "No restaurants are currently open"
+  }
+}

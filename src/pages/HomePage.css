@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home-page {
+  padding: 32px 36px;
+}
+
+.note {
+  background-color: #ffedcb;
+  border-left: 4px solid #fdb063;
+  box-shadow: var(--shadow);
+
+  margin: 5px 0px 12px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  max-width: 550px;
+}
+
+.category-section {
+  margin-bottom: 48px;
+}
+
+.category-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.category-title::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+/* ── 響應式 Grid：4 → 3 → 2 → 1 欄 ── */
+.card-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1199px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width:  767px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width:  479px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) { .home-page { padding: 16px; } }
