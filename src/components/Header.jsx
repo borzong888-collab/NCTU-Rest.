@@ -42,7 +42,7 @@ function Header({ openOnly, setOpenOnly }) {
     <header className="header">
       {/* left */}
       <div className="header-left">
-          <img src="src/assets/logo.png" alt="一直跑掉的LOGO" className="logo" />
+          <img src="./src/assets/logo.png" alt="一直跑掉的LOGO" className="logo" />
           <div className="header-title">
             <div className="title-zh">{t('header.title')}</div>
             <div className="title-en">{t('header.subtitle')}</div>
