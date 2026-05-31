@@ -118,7 +118,7 @@ export const restaurants = [
     menu: [
       { id: 1, name: '交給大家了', price: '000' }
     ],
-    payment: ['cash', 'credit', 'linepay', 'taiwanpay'],
+    payment: ['cash', 'credit', 'linepay'],
   },
 
   {
