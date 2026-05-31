@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next'
 import { CATEGORIES } from '../data/data'
 import './Header.css'
 
+import LOGO from '../assets/logo.png';
+
 function Header({ openOnly, setOpenOnly }) {
   const [currentTime, setCurrentTime] = useState(new Date())
   const { t, i18n } = useTranslation()
@@ -42,7 +44,7 @@ function Header({ openOnly, setOpenOnly }) {
     <header className="header">
       {/* left */}
       <div className="header-left">
-          <img src="./src/assets/logo.png" alt="一直跑掉的LOGO" className="logo" />
+          <img src={LOGO} alt="一直跑掉的LOGO" className="logo" />
           <div className="header-title">
             <div className="title-zh">{t('header.title')}</div>
             <div className="title-en">{t('header.subtitle')}</div>

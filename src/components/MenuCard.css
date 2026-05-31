@@ -20,13 +20,13 @@
 }
 
 .menu-name {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 450;
 }
 
 .menu-price {
-    font-size: 13px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 450;
     color: var(--accent);
     white-space: nowrap;
 }
